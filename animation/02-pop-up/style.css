@@ -56,7 +56,7 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
-  animation: 0.5s slide-down
+  animation: 0.5s slide-down;
 }
 
 @keyframes slide-down {
@@ -68,6 +68,18 @@ button {
   to {
     margin-top: 0%;
     opacity: 100%;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 0%;
+    opacity: 100%;
+  }
+
+  to {
+    margin-top: -20%;
+    opacity: 0%;
   }
 }
 
